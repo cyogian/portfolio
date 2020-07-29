@@ -1,15 +1,14 @@
-import React, { Component } from "react"
+import React from "react"
 import PropTypes from "prop-types"
-class Header extends Component {
-    render() {
-        return <div>Header</div>
-    }
-}
+
+import NavLinks from "./navlinks"
+
+import classes from "./header.module.scss"
+
+const Header = props => <div className={classes.Header}></div>
 
 Header.propTypes = {
-    onClickToggle: PropTypes.func
+  onClickToggle: PropTypes.func.isRequired,
 }
-Header.defaultProps = {
-    onClickToggle: () => ()
-}
+
 export default Header
