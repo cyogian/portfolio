@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
 const NavLinks = props => (
-  <nav>
-    <Link to="/home" activeClassName={props.activeClassName}>
+  <nav className={props.className}>
+    <Link to="/" activeClassName={props.activeClassName}>
       Home
     </Link>
     <Link to="/technologies" activeClassName={props.activeClassName}>
@@ -21,9 +21,11 @@ const NavLinks = props => (
 
 NavLinks.propTypes = {
   activeClassName: PropTypes.string,
+  className: PropTypes.string,
 }
 NavLinks.defaultProps = {
   activeClassName: "",
+  className: "",
 }
 
 export default NavLinks

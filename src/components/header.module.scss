@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Open + Sans&display=swap");
+.NavBar {
+  a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    padding: 0.6rem 0.5rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  a:hover {
+    border-color: #4efd89 !important;
+  }
+  margin: 1.3rem 0.5rem;
+}
+
+.Active {
+  color: #e2ffc2 !important;
+  border-color: #4efd89 !important;
+}
+
+.Header {
+  border-bottom: 2px solid white;
+}

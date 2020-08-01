@@ -1,7 +1,9 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-const Sidebar = props => <div>Sidebar</div>
+import classes from "./sidebar.module.scss"
+
+const Sidebar = props => <div className={classes.Sidebar}>Sidebar</div>
 
 Sidebar.propTypes = {
   show: PropTypes.bool,
