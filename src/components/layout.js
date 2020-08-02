@@ -17,7 +17,10 @@ class Layout extends Component {
   render() {
     return (
       <div className={classes.Layout}>
-        <Header onClickToggle={this.onSidebarToggle} />
+        <Header
+          onClickToggle={this.onSidebarToggle}
+          status={this.state.showSidebar}
+        />
         <Sidebar
           show={this.state.showSidebar}
           onClickToggle={this.onSidebarToggle}
