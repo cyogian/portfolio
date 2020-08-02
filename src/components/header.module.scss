@@ -135,23 +135,15 @@ $blue: #0066ff;
 }
 
 .Toggle {
-  margin: auto 0.5rem auto 0;
-  padding: 0.3rem 0.55rem;
   font-size: 1.5rem;
-  border: 2px solid white;
-  border-radius: 50%;
-  transition: all ease-in-out 0.3s;
+  transition: all 0.1s ease-in-out;
   outline: none;
   display: none;
-  &:hover {
-    border-radius: 10px;
-    background-color: rgba(245, 245, 245, 0.5);
-    box-shadow: 0 0 1px 2px whitesmoke;
-  }
+  box-sizing: border-box;
+  margin-right: 1rem;
+
   &:active {
-    transform: scale(0.9);
-    transition: none;
-    background-color: black;
+    transform: rotate(90deg);
   }
 }
 
@@ -199,7 +191,9 @@ $blue: #0066ff;
 }
 
 @media (max-width: 320px) {
-  .Logo {
-    display: none;
+  .Logo::after {
+    content: "Y";
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
   }
 }
