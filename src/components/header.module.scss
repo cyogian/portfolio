@@ -45,7 +45,7 @@ $green: #4efd89;
 }
 
 .Logo {
-  border: 2px solid whitesmoke;
+  border: 2px solid $green;
   font-family: "Rowdies", cursive;
   text-transform: uppercase;
   font-size: xx-large;
@@ -60,7 +60,7 @@ $green: #4efd89;
   text-decoration: none;
   fill: white;
   &:hover {
-    border-color: $green;
+    border-color: #60ff21;
   }
   img {
     width: 40px;
