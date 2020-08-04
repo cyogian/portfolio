@@ -15,7 +15,7 @@ const Header = props => {
   return (
     <div className={classes.Header}>
       <Link className={classes.Logo} to="/">
-        <img src="logo.svg" alt="Yogi Logo" />
+        <img src="logo.svg" alt="Logo" />
         <span>Cyogian</span>
       </Link>
       <div className={classes.Menu}>

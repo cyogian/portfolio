@@ -12,6 +12,7 @@
   flex-direction: column;
   justify-content: center;
   border-left: 0.1px solid #525252;
+  max-width: 100vw;
   z-index: 5;
   &.Open {
     transform: translateX(0);
