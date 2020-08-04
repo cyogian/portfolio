@@ -5,6 +5,7 @@ import NavLinks from "./navlinks"
 import Social from "./social"
 
 import classes from "./header.module.scss"
+import { Link } from "gatsby"
 
 const Header = props => {
   let { Toggle } = classes
@@ -13,7 +14,10 @@ const Header = props => {
   }
   return (
     <div className={classes.Header}>
-      <span className={classes.Logo}>Cyogian</span>
+      <Link className={classes.Logo} to="/">
+        <img src="logo.svg" alt="Yogi Logo" />
+        <span>Cyogian</span>
+      </Link>
       <div className={classes.Menu}>
         <div className={classes.LeftMenu}>
           <NavLinks
@@ -38,7 +42,6 @@ const Header = props => {
               <i className={props.status ? "fas fa-times" : "fas fa-bars"}></i>
             </div>
           </div>
-
           <Social className={classes.Social} />
         </div>
       </div>
