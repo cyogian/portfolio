@@ -1,0 +1,49 @@
+.Index {
+  width: 100%;
+  padding-top: 3rem;
+}
+
+.Computer {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  max-width: 320px;
+  background-color: black;
+  img {
+    width: 100%;
+  }
+}
+
+.Screen {
+  position: absolute;
+  top: 20px;
+  left: 28px;
+  width: 246px;
+  height: 148px;
+  padding: 8px;
+  font-size: 1.3rem;
+  border: 2px solid #daffa4;
+  color: #4efd89;
+  span {
+    font-weight: bold;
+    color: white;
+    animation: textBlink 1s step-start 0s infinite;
+    -webkit-animation: textBlink 1s step-start 0s infinite;
+  }
+}
+
+@keyframes textBlink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 319px) {
+  .Screen {
+    top: 5.2%;
+    left: 8.7%;
+    width: 75%;
+    height: 36.5%;
+    padding: 3.5%;
+  }
+}

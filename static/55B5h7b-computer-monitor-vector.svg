@@ -1,0 +1,73 @@
+<?xml version="1.0"?><svg width="450" height="380" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>Computer Monitor</title>
+ <defs>
+  <filter id="filter3280">
+   <feGaussianBlur stdDeviation="1.022422" id="feGaussianBlur3282"/>
+  </filter>
+  <filter id="filter3363" x="-0.232379" width="1.464758" y="-0.247871" height="1.495742">
+   <feGaussianBlur stdDeviation="2.19089" id="feGaussianBlur3365"/>
+  </filter>
+  <linearGradient id="linearGradient3381">
+   <stop offset="0" id="stop3383" stop-color="#ffffff"/>
+   <stop offset="1" id="stop3385" stop-opacity="0" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3351">
+   <stop offset="0" id="stop3353" stop-color="#aaaaaa"/>
+   <stop offset="1" id="stop3355" stop-color="#666666"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3248">
+   <stop offset="0" id="stop3250" stop-color="#ffffff"/>
+   <stop offset="1" id="stop3252" stop-opacity="0" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3225">
+   <stop offset="0" id="stop3227" stop-color="#ffffff"/>
+   <stop offset="1" id="stop3229" stop-opacity="0" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3152">
+   <stop offset="0" id="stop3154" stop-color="#000000"/>
+   <stop offset="1" id="stop3156" stop-opacity="0" stop-color="#000000"/>
+  </linearGradient>
+  <linearGradient xlink:href="#linearGradient3351" id="linearGradient3504" x1="0.379778" y1="-Infinity" x2="0.642857" y2="Infinity"/>
+  <radialGradient xlink:href="#linearGradient3152" id="radialGradient3506" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2.94521, 3.14259, -1.5063, 1.24074, -137.304, -1345.57)" cx="395.9798" cy="420.20871" fx="395.9798" fy="420.20871" r="12.013708"/>
+  <linearGradient xlink:href="#linearGradient3225" id="linearGradient3508" x1="0.024726" y1="0.043029" x2="0.344752" y2="0.722473"/>
+  <linearGradient xlink:href="#linearGradient3381" id="linearGradient3515" x1="0.254801" y1="0.143954" x2="0.929274" y2="1.098969"/>
+  <linearGradient xlink:href="#linearGradient3248" id="linearGradient3518" x1="0" y1="0.5" x2="1" y2="0.5"/>
+ </defs>
+ <metadata id="metadata2424">image/svg+xmlLCD Widescreen Monitor31. Oktober 2007Armin Hausmannhttp://www.get8k.org/Armin Hausmann</metadata>
+ <g>
+  <title>Layer 1</title>
+  <rect id="rect3308" width="0" height="16" x="398" y="443.36218" stroke-miterlimit="4" fill="#000000"/>
+  <g id="g3463" fill="#000000">
+   <path id="path3465" d="m346.643005,348.25a119.5,21.5 0 1 1 -239.000015,0a119.5,21.5 0 1 1 239.000015,0z" stroke-miterlimit="4" fill="#000000"/>
+   <path id="path3467" d="m342.356995,350.75a119.5,19 0 1 1 -238.999985,0a119.5,19 0 1 1 238.999985,0z" stroke-miterlimit="4" fill="#000000"/>
+  </g>
+  <g id="g3342" fill="#666666">
+   <path id="path3344" d="m348.825012,353.75a119.5,21.5 0 1 1 -239.000015,0a119.5,21.5 0 1 1 239.000015,0z" stroke-miterlimit="4" fill="#666666"/>
+   <path id="path3346" d="m344.539001,356.25a119.5,19 0 1 1 -239,0a119.5,19 0 1 1 239,0z" stroke-miterlimit="4" fill="#666666"/>
+  </g>
+  <g id="g3312">
+   <path id="path3310" d="m346.643005,348.25a119.5,21.5 0 1 1 -239.000015,0a119.5,21.5 0 1 1 239.000015,0z" stroke-miterlimit="4" fill="#333333"/>
+   <path id="path3302" d="m342.356995,350.75a119.5,19 0 1 1 -238.999985,0a119.5,19 0 1 1 238.999985,0z" stroke-miterlimit="4" fill="#000000"/>
+  </g>
+  <rect ry="2.668138" y="311.74997" x="193.71429" height="44" width="60" id="rect3306" stroke-miterlimit="4" fill="#000000"/>
+  <path id="path3304" d="m12.7705,27.75l424.459511,0c4.303986,0 7.769989,3.465599 7.769989,7.7705l0,264.458504c0,4.304993 -3.470001,7.569 -7.769989,7.770996c0,0 -106.330017,10 -212.444016,10c-106.115005,0 -212.015495,-10 -212.015495,-10c-4.30008,-0.203003 -7.7705,-3.466003 -7.7705,-7.770996l0,-264.458504c0,-4.304901 3.46564,-7.7705 7.7705,-7.7705z" stroke-miterlimit="4" stroke-width="1.4" fill="#333333"/>
+  <path id="path3379" d="m12.7705,24.75l424.459511,0c4.303986,0 7.769989,3.465599 7.769989,7.7705l0,264.458504c0,4.304993 -3.470001,7.569 -7.769989,7.770996c0,0 -106.330017,10 -212.444016,10c-106.115005,0 -212.015495,-10 -212.015495,-10c-4.30008,-0.203003 -7.7705,-3.466003 -7.7705,-7.770996l0,-264.458504c0,-4.304901 3.46564,-7.7705 7.7705,-7.7705z" stroke-miterlimit="4" stroke-width="1.4" fill="#000000"/>
+  <g id="g3033">
+   <g id="g3026">
+    <rect ry="0.367213" y="44.821429" x="23.714298" height="224" width="400" id="rect3022" stroke-miterlimit="4" stroke-width="1.4" fill="#ffffff"/>
+    <rect ry="0.367213" y="44.821429" x="23.714298" height="224" width="400" id="rect2427" stroke-miterlimit="4" stroke-width="1.4" fill="#ffffff"/>
+   </g>
+  </g>
+  <path d="m233.714005,297.899994a10,10 0 1 1 -20,0a10,10 0 1 1 20,0z" id="path3044" filter="url(#filter3363)" stroke-miterlimit="4" stroke-width="1.4" fill-opacity="0.784314" fill="#013397"/>
+  <path d="m230.714005,297.899994a7,7 0 1 1 -14,0a7,7 0 1 1 14,0z" id="path3150" stroke-miterlimit="4" stroke-width="1.4" fill="#cccccf"/>
+  <path d="m230.714005,297.899994a7,7 0 1 1 -14,0a7,7 0 1 1 14,0z" id="path3040" stroke-miterlimit="4" stroke-width="1.4" stroke="url(#radialGradient3506)" fill="url(#linearGradient3504)"/>
+  <g id="g3359">
+   <path id="path3203" d="m226.285995,298.734985a2.57207,2.57207 0 1 1 -5.143997,0a2.57207,2.57207 0 1 1 5.143997,0z" stroke-miterlimit="4" stroke-width="1.021289" stroke="#eeeeee" fill-opacity="0.705882" fill="none"/>
+   <path d="m223.714005,294.493011c0,4.151001 0,4.151001 0,4.151001" id="path3207" stroke-miterlimit="4" stroke-width="0.855869" stroke="#eeeeee" fill-rule="evenodd" fill="none"/>
+  </g>
+  <path id="path3209" d="m231.313004,314l0,0z" stroke-width="1px" stroke="#000000" fill-rule="evenodd" fill="none"/>
+  <path id="rect3217" d="m9.34375,29.5128c-0.2505,0 -0.4375,0.226099 -0.4375,0.485701l0,171.341496c0,0.259003 0.187,0.485001 0.4375,0.485001l12.53125,0c0.2505,0 0.4688,-0.225998 0.4688,-0.485001l0,-157.937298l228.562206,0c0.36499,0 0.656998,-0.3018 0.656998,-0.679897l0,-12.530102c0,-0.378099 -0.292007,-0.679899 -0.656998,-0.679899l-229.031006,0l-11.96875,0l-0.5625,0l0,0z" filter="url(#filter3280)" stroke-miterlimit="4" fill="url(#linearGradient3508)" opacity="0.5"/>
+  <rect transform="translate(6, 2) scale(1)" ry="1.201561" y="4.749983" x="-445" height="321" width="6" id="rect3246" stroke-miterlimit="4" fill="url(#linearGradient3518)" opacity="0.709898"/>
+  <path id="rect3018" d="m12.7813,24.75c-4.304899,0 -7.7813,3.4764 -7.7813,7.7812l0,264.437794c0,4.304993 3.48117,7.578003 7.7813,7.781006c0,0 25.222099,2.377991 63.2812,4.812012c19.905098,-74.179016 60.324493,-156.942017 142.156494,-173.625015c56.40802,-11.498993 94.600006,-57.537895 120.375,-111.186996l-325.812695,0l0,0z" stroke-miterlimit="4" stroke-width="1.4" fill="url(#linearGradient3515)" opacity="0.3"/>
+ </g>
+</svg>
