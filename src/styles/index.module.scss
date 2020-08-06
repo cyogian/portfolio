@@ -1,3 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+@font-face {
+  font-family: "Quiet Evening";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../fonts/Quiet\ Evening.ttf");
+}
+@font-face {
+  font-family: "Benjamin Franklin";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../fonts/BenjaminFranklin.ttf");
+}
+
 .Index {
   width: 100%;
   padding-top: 3rem;
@@ -24,17 +40,24 @@
   font-size: 1.3rem;
   border: 2px solid #daffa4;
   color: #4efd89;
-  span {
-    font-weight: bold;
-    color: white;
-    animation: textBlink 1s step-start 0s infinite;
-    -webkit-animation: textBlink 1s step-start 0s infinite;
-  }
-}
-
-@keyframes textBlink {
-  50% {
-    opacity: 0;
+  font-family: "Benjamin Franklin";
+  a {
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 1px;
+    left: 0px;
+    border-top: 2px solid gold;
+    padding: 4px 0;
+    font-size: 0.8rem;
+    color: gold;
+    &:hover {
+      color: #ffe865;
+    }
+    &:active {
+      transform: scale(0.98);
+    }
   }
 }
 

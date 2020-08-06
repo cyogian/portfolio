@@ -1,4 +1,13 @@
 .Footer {
   position: absolute;
   bottom: 0px;
+  border: 2px solid white;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  padding: 0.3rem 0;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.8rem;
+  background-color: black;
 }
