@@ -21,9 +21,9 @@ class Index extends Component {
                   strings: [
                     "Hello, I'm Amar.<br/>I'm a Full Stack Web Developer.",
                     "I build Web Apps using Javascript & Python.",
-                    "I am proficient in building both Frontend & Backend of a WebApp.",
-                    "I can make Multi-Page & Single-Page Progressive Web Applications.",
-                    "I can build ReST APIs using Python/Flask & Node.js/Express.js.",
+                    "I am proficient in building both Frontend & Backend of a Web Application.",
+                    "I can create Multi-Page & Single-Page Progressive Web Applications.",
+                    "I can build ReST APIs using Python/Flask.",
                   ],
                   autoStart: true,
                   loop: true,

@@ -4,7 +4,11 @@ import classes from "./footer.module.scss"
 
 const Footer = () => (
   <div className={classes.Footer}>
-    Copyright © {new Date().getFullYear()} Amar Nath Yogi. All Rights Reserved
+    Copyright © {new Date().getFullYear()}{" "}
+    <a href="https://linkedin.com/in/cyogian" target="__blank" rel="noreferer">
+      Amar Nath Yogi
+    </a>
+    . All Rights Reserved
   </div>
 )
 

@@ -5,6 +5,7 @@ import Footer from "./footer"
 import Sidebar from "./sidebar"
 
 import classes from "./layout.module.scss"
+import Stars from "./stars"
 
 class Layout extends Component {
   state = {
@@ -17,6 +18,7 @@ class Layout extends Component {
   render() {
     return (
       <div className={classes.Layout}>
+        <Stars />
         <Header
           onClickToggle={this.onSidebarToggle}
           status={this.state.showSidebar}

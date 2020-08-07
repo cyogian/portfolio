@@ -4,7 +4,6 @@
   position: fixed;
   right: 0;
   width: 300px;
-  margin-top: 64px;
   transform: translateX(300px);
   transition: transform 300ms ease-in-out;
   background-color: black;
@@ -14,6 +13,7 @@
   border-left: 0.1px solid #525252;
   max-width: 100vw;
   z-index: 5;
+  margin-top: 64px;
   &.Open {
     transform: translateX(0);
   }
