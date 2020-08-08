@@ -7,7 +7,7 @@ const Social = props => {
       <a
         href="https://github.com/cyogian"
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         title="GitHub"
       >
         <i className="fab fa-github"></i>
@@ -15,7 +15,7 @@ const Social = props => {
       <a
         href="https://codepen.io/cyogian"
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         title="Codepen"
       >
         <i className="fab fa-codepen"></i>
@@ -23,7 +23,7 @@ const Social = props => {
       <a
         href="https://linkedin.com/in/cyogian"
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         title="LinkedIn"
       >
         <i className="fab fa-linkedin"></i>
@@ -31,7 +31,7 @@ const Social = props => {
       <a
         href="https://twitter.com/cyogian"
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         title="Twitter"
       >
         <i className="fab fa-twitter"></i>
@@ -39,7 +39,7 @@ const Social = props => {
       <a
         href="mailto: nathyogiamar@gmail.com"
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         title="Email"
       >
         <i className="fas fa-at"></i>

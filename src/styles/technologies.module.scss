@@ -1,0 +1,166 @@
+@font-face {
+  font-family: "Quiet Evening";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../fonts/Quiet\ Evening.ttf");
+}
+
+.Technologies {
+  width: 100%;
+}
+
+.Section {
+  margin: 1rem auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+@mixin white-gradient {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+$animationSpeed: 15s;
+
+// Animation
+@keyframes scrollfrontend {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-180px * 12));
+  }
+}
+@keyframes scrollbackend {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-180px * 8));
+  }
+}
+@keyframes scrolldevops {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-180px * 6));
+  }
+}
+
+@keyframes scrollos {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-180px * 2));
+  }
+}
+// Styling
+.Slider {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 60px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  &::before,
+  &::after {
+    @include white-gradient;
+    content: "";
+    height: 60px;
+    position: absolute;
+    width: 180px;
+    z-index: 2;
+  }
+
+  &::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+
+  &::before {
+    left: 0;
+    top: 0;
+  }
+
+  .SlideTrackFrontend {
+    animation: scrollfrontend $animationSpeed linear infinite;
+    display: flex;
+    width: calc(180px * 24);
+  }
+
+  .SlideTrackBackend {
+    animation: scrollbackend $animationSpeed linear infinite;
+    display: flex;
+    width: calc(180px * 16);
+  }
+
+  .SlideTrackDevops {
+    animation: scrolldevops $animationSpeed linear infinite;
+    display: flex;
+    width: calc(180px * 12);
+  }
+
+  .SlideTrackOS {
+    animation: scrollos $animationSpeed linear infinite;
+    display: flex;
+    width: calc(180px * 4);
+  }
+  .Slide {
+    height: 60px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      height: 55px;
+      width: 180px;
+    }
+  }
+}
+
+.Dropdown {
+  .Headline {
+    background-color: #353535;
+    padding: 0.3rem 1rem;
+    font-size: 1.3rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.9;
+    font-family: "Quiet Evening";
+    &:hover {
+      opacity: 1;
+      cursor: pointer;
+    }
+    i {
+      transition: transform 0.5s;
+    }
+  }
+  .DetailView {
+    height: 0;
+    transition: height 1s;
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  &.Open {
+    .Headline {
+      i {
+        transform: rotateX(-180deg);
+      }
+      border-radius: 0;
+    }
+    .DetailView {
+      height: 400px;
+    }
+  }
+}
