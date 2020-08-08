@@ -29,7 +29,9 @@ class Index extends Component {
                   loop: true,
                 }}
               />
-              <Link to="/technologies">Click Here to Explore My Skill Set</Link>
+              <Link to="/technologies">
+                Click Here to Explore My Tools & Skill Set
+              </Link>
             </div>
           </div>
         </div>
