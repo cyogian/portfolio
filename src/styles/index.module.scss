@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
-
+@font-face {
+  font-family: "Quiet Evening";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../fonts/Quiet\ Evening.ttf");
+}
 @font-face {
   font-family: "Benjamin Franklin";
   font-style: normal;
@@ -44,10 +50,10 @@
     left: 0px;
     border-top: 2px solid gold;
     padding: 4px 0;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: gold;
     &:hover {
-      color: #fff2ac;
+      color: #ffe865;
     }
     &:active {
       transform: scale(0.98);

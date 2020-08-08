@@ -43,6 +43,13 @@ class Technologies extends Component {
       <Layout>
         <Head title="Technologies" />
         <div className={classes.Technologies}>
+          <div className={classes.Header}>
+            <h1>Technologies.</h1>
+            <div>
+              The technologies that I'm skilled in working with & the tools that
+              I've used in my personal projects.
+            </div>
+          </div>
           <div className={classes.Section}>
             <div className={classes.Slider}>
               <div className={classes.SlideTrackFrontend}>
@@ -125,7 +132,7 @@ class Technologies extends Component {
                 className={classes.Headline}
                 onClick={() => this.onDrop("frontend")}
               >
-                <span>Frontend</span>
+                <span>Frontend Technologies</span>
                 <i className="fa fa-chevron-circle-down"></i>
               </div>
               <div className={classes.DetailView}></div>
