@@ -143,10 +143,19 @@ $green: #4efd89;
   }
   &:hover {
     border-color: chartreuse;
-    font-size: 1.3rem;
   }
   &:hover::after {
     border-color: chartreuse;
+  }
+  animation: resume 500ms infinite linear;
+}
+
+@keyframes resume {
+  0% {
+    font-size: 1rem;
+  }
+  50% {
+    font-size: 1.1rem;
   }
 }
 

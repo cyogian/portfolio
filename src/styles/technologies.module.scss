@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto + Sans + JP&family=Roboto&display=swap");
 @font-face {
   font-family: "Quiet Evening";
   font-style: normal;
@@ -50,7 +51,7 @@
   );
 }
 
-$animationSpeed: 15s;
+$animationSpeed: 25s;
 
 // Animation
 @keyframes scrollfrontend {
@@ -58,7 +59,7 @@ $animationSpeed: 15s;
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-180px * 12));
+    transform: translateX(calc(-180px * 15));
   }
 }
 @keyframes scrollbackend {
@@ -120,7 +121,7 @@ $animationSpeed: 15s;
   .SlideTrackFrontend {
     animation: scrollfrontend $animationSpeed linear infinite;
     display: flex;
-    width: calc(180px * 24);
+    width: calc(180px * 30);
   }
 
   .SlideTrackBackend {
@@ -146,19 +147,20 @@ $animationSpeed: 15s;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
     img {
       height: 55px;
-      width: 180px;
+      width: auto;
+      max-width: 120px;
     }
   }
 }
 
 .Dropdown {
   .Headline {
-    background-color: #353535;
+    background-color: black;
     padding: 0.3rem 1rem;
     font-size: 1rem;
-    border: 1px solid gray;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -168,14 +170,20 @@ $animationSpeed: 15s;
       opacity: 1;
       cursor: pointer;
     }
+    &:focus,
+    &:active {
+      outline: none;
+    }
     i {
-      transition: transform 0.5s;
+      transition: transform 1s;
     }
   }
   .DetailView {
-    height: 0;
-    transition: height 1s;
-    background-color: rgba(255, 255, 255, 0.15);
+    max-height: 0;
+    transition: max-height 0.5s ease-out;
+    // background-color: #2a2a2a;
+    background-color: white;
+    overflow: hidden;
   }
   &.Open {
     .Headline {
@@ -185,7 +193,8 @@ $animationSpeed: 15s;
       border-radius: 0;
     }
     .DetailView {
-      height: 400px;
+      max-height: 2000px;
+      transition: max-height 1s ease-in;
     }
   }
 }
@@ -193,5 +202,122 @@ $animationSpeed: 15s;
 @media (min-width: 801px) {
   .Technologies h1 {
     display: none;
+  }
+}
+
+.Grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.Card {
+  // background-color: #2a2a2a;
+  background-color: white;
+  color: black;
+  position: relative;
+  display: flex;
+  .Image {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 5px;
+    img {
+      width: auto;
+      background-color: white;
+    }
+    .Image1 {
+      animation: infiniteFade1 5s infinite;
+    }
+    .Image2 {
+      position: absolute;
+      left: 0.5rem;
+      animation: infiniteFade2 5s infinite;
+    }
+    .Image3 {
+      animation: infiniteRotate 2500ms infinite;
+      animation-timing-function: linear;
+    }
+    .Image4 {
+      animation: infiniteRotateY 2500ms infinite;
+      animation-timing-function: linear;
+    }
+  }
+  .Description {
+    h3 {
+      font-family: "Roboto", sans-serif;
+      padding-bottom: 0.3rem;
+    }
+    font-size: 0.8rem;
+    font-weight: lighter;
+    padding: 0.5rem;
+    font-family: "Noto Sans JP", sans-serif;
+    max-width: 400px;
+  }
+}
+
+@keyframes infiniteFade1 {
+  0% {
+    opacity: 0;
+    transform: rotateY(180deg);
+  }
+
+  50% {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotateY(180deg);
+  }
+}
+@keyframes infiniteFade2 {
+  0% {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+
+  50% {
+    opacity: 0;
+    transform: rotateY(180deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+}
+
+@keyframes infiniteRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes infiniteRotateY {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@media (max-width: 1080px) {
+  .Grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 800px) {
+  .Grid {
+    grid-template-columns: 1fr;
   }
 }
