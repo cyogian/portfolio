@@ -241,7 +241,7 @@ class Technologies extends Component {
                     <span className={classes.Description}>
                       <h3>Bootstrap & Semantic UI.</h3>I am capable of
                       leveraging CSS Frameworks & UI Component Libraries such as
-                      Bootstrap & Semantic UI for fater development of
+                      Bootstrap & Semantic UI for faster development of
                       responsive mobile-first web apps.
                     </span>
                   </div>
