@@ -51,7 +51,10 @@
   );
 }
 
-$animationSpeed: 25s;
+$animationSpeedFrontend: 25s;
+$animationSpeedBackend: 13s;
+$animationSpeedDevops: 15s;
+$animationSpeedOS: 5s;
 
 // Animation
 @keyframes scrollfrontend {
@@ -64,10 +67,10 @@ $animationSpeed: 25s;
 }
 @keyframes scrollbackend {
   0% {
-    transform: translateX(0);
+    transform: translateX(calc(-180px * 8));
   }
   100% {
-    transform: translateX(calc(-180px * 8));
+    transform: translateX(0);
   }
 }
 @keyframes scrolldevops {
@@ -91,6 +94,7 @@ $animationSpeed: 25s;
 .Slider {
   background: white;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  border-top: 2px solid black;
   height: 60px;
   margin: auto;
   overflow: hidden;
@@ -119,25 +123,25 @@ $animationSpeed: 25s;
   }
 
   .SlideTrackFrontend {
-    animation: scrollfrontend $animationSpeed linear infinite;
+    animation: scrollfrontend $animationSpeedFrontend linear infinite;
     display: flex;
     width: calc(180px * 30);
   }
 
   .SlideTrackBackend {
-    animation: scrollbackend $animationSpeed linear infinite;
+    animation: scrollbackend $animationSpeedBackend linear infinite;
     display: flex;
     width: calc(180px * 16);
   }
 
   .SlideTrackDevops {
-    animation: scrolldevops $animationSpeed linear infinite;
+    animation: scrolldevops $animationSpeedDevops linear infinite;
     display: flex;
     width: calc(180px * 12);
   }
 
   .SlideTrackOS {
-    animation: scrollos $animationSpeed linear infinite;
+    animation: scrollos $animationSpeedOS linear infinite;
     display: flex;
     width: calc(180px * 4);
   }
