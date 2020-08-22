@@ -16,7 +16,7 @@ const Header = props => {
     <div className={classes.Header}>
       <Link className={classes.Logo} to="/">
         <img src="/logo.svg" alt="Logo" />
-        <span>Cyogian</span>
+        <span>cyogian</span>
       </Link>
       <div className={classes.Menu}>
         <div className={classes.LeftMenu}>
@@ -27,7 +27,8 @@ const Header = props => {
         </div>
         <div className={classes.RightMenu}>
           <a className={classes.Resume} href="/" download>
-            <i className="fas fa-file-download"></i>
+            <img src="amarprofile.jpeg" alt="Profile Pic" />
+            {/* <i className="fas fa-file-download"></i> */}
           </a>
           <div style={{ width: "2rem" }}>
             <div

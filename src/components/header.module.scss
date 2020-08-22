@@ -111,6 +111,11 @@ $green: #4efd89;
   z-index: 150;
   background-color: black;
   transition: all 0.5s;
+  img {
+    width: 115%;
+    border-radius: 50%;
+    z-index: 120;
+  }
 
   &::before {
     width: 1.5rem;
@@ -161,14 +166,14 @@ $green: #4efd89;
 
 .Toggle {
   font-size: 1.5rem;
-  transition: all 0.1s ease-in-out;
+  transition: transform 0.1s linear;
   outline: none;
   display: none;
   box-sizing: border-box;
   margin-right: 1rem;
 
   &:active {
-    transform: rotate(90deg);
+    transform: rotateZ(90deg);
   }
 }
 
