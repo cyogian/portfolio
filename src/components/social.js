@@ -37,7 +37,7 @@ const Social = props => {
         <i className="fab fa-twitter"></i>
       </a>
       <a
-        href="mailto: nathyogiamar@gmail.com"
+        href="mailto: contact@cyogian.dev"
         target="_blank"
         rel="noopener noreferrer"
         title="Email"
