@@ -26,21 +26,21 @@ const Header = props => {
           />
         </div>
         <div className={classes.RightMenu}>
-          <a className={classes.Resume} href="/" download>
+          <a className={classes.Resume} href="/" download tabIndex="1">
             {/* <img src="amarprofile.jpeg" alt="Profile Pic" /> */}
             <i className="fas fa-file-download"></i>
           </a>
           <div style={{ width: "2rem" }}>
-            <div
-              className={Toggle}
-              onClick={props.onClickToggle}
-              role="button"
-              tabIndex="-5"
-              aria-pressed="false"
-              aria-expanded={props.status}
-              onKeyDown={props.onClickToggle}
-            >
-              <i className={props.status ? "fas fa-times" : "fas fa-bars"}></i>
+            <div className={Toggle}>
+              <i
+                onClick={props.onClickToggle}
+                role="button"
+                tabIndex="0"
+                aria-pressed="false"
+                aria-expanded={props.status}
+                onKeyDown={props.onClickToggle}
+                className={props.status ? "fas fa-times" : "fas fa-bars"}
+              ></i>
             </div>
           </div>
           <Social className={classes.Social} />

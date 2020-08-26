@@ -158,10 +158,12 @@ $green: #4efd89;
 .Toggle {
   font-size: 1.5rem;
   transition: transform 0.1s linear;
-  outline: none;
   display: none;
   box-sizing: border-box;
   margin-right: 1rem;
+  i {
+    outline-color: black;
+  }
 
   &:active {
     transform: rotateZ(90deg);
