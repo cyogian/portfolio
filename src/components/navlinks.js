@@ -7,10 +7,18 @@ const NavLinks = props => (
     <Link to="/" activeClassName={props.activeClassName}>
       Home
     </Link>
-    <Link to="/technologies" activeClassName={props.activeClassName}>
+    <Link
+      to="/technologies"
+      activeClassName={props.activeClassName}
+      partiallyActive
+    >
       Technologies
     </Link>
-    <Link to="/projects" activeClassName={props.activeClassName}>
+    <Link
+      to="/projects"
+      activeClassName={props.activeClassName}
+      partiallyActive
+    >
       Projects
     </Link>
     <Link to="/blog" activeClassName={props.activeClassName} partiallyActive>
