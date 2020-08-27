@@ -9,7 +9,7 @@ const Social = props => {
         target="_blank"
         rel="noopener noreferrer"
         title="GitHub"
-        tabIndex="6"
+        tabIndex="0"
       >
         <i className="fab fa-github"></i>
       </a>
@@ -18,7 +18,7 @@ const Social = props => {
         target="_blank"
         rel="noopener noreferrer"
         title="Codepen"
-        tabIndex="7"
+        tabIndex="0"
       >
         <i className="fab fa-codepen"></i>
       </a>
@@ -27,7 +27,7 @@ const Social = props => {
         target="_blank"
         rel="noopener noreferrer"
         title="LinkedIn"
-        tabIndex="8"
+        tabIndex="0"
       >
         <i className="fab fa-linkedin"></i>
       </a>
@@ -36,7 +36,7 @@ const Social = props => {
         target="_blank"
         rel="noopener noreferrer"
         title="Twitter"
-        tabIndex="9"
+        tabIndex="0"
       >
         <i className="fab fa-twitter"></i>
       </a>

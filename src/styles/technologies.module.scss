@@ -41,6 +41,8 @@
   margin: 0 auto;
   position: relative;
   box-sizing: border-box;
+  border-top: 2px solid black;
+  background-color: white;
 }
 
 @mixin white-gradient {
@@ -52,8 +54,8 @@
 }
 
 $animationSpeedFrontend: 50s;
-$animationSpeedBackend: 26s;
-$animationSpeedDevops: 30s;
+$animationSpeedBackend: 35s;
+$animationSpeedDevops: 20s;
 $animationSpeedOS: 10s;
 
 // Animation
@@ -94,7 +96,6 @@ $animationSpeedOS: 10s;
 .Slider {
   background: white;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-  border-top: 2px solid black;
   height: 60px;
   margin: auto;
   overflow: hidden;

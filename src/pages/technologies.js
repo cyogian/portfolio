@@ -150,7 +150,7 @@ class Technologies extends Component {
                 className={classes.Headline}
                 onClick={() => this.onDrop("frontend")}
                 role="button"
-                tabIndex="-6"
+                tabIndex="0"
                 onKeyDown={() => this.onDrop("frontend")}
               >
                 <span>Frontend Technologies</span>
@@ -353,7 +353,7 @@ class Technologies extends Component {
                 className={classes.Headline}
                 onClick={() => this.onDrop("backend")}
                 role="button"
-                tabIndex="-6"
+                tabIndex="0"
                 onKeyDown={() => this.onDrop("backend")}
               >
                 <span>Backend Technologies</span>
@@ -409,6 +409,30 @@ class Technologies extends Component {
                   <div className={classes.Card}>
                     <span className={classes.Image}>
                       <img
+                        src="/logos/mysql.svg"
+                        alt="MySQL"
+                        height="45"
+                        className={classes.Image1}
+                      />
+                      <img
+                        src="/logos/mongodB.svg"
+                        alt="MongoDB"
+                        height="45"
+                        className={classes.Image2}
+                      />
+                    </span>
+                    <span className={classes.Description}>
+                      <h3>MySQL & MongoDB.</h3>I have beginner level experience
+                      with SQL, writing queries, using simple joints, etc. and
+                      using MySQL as relational database. I am also skilled in
+                      using MongoDB, performing different CRUD operations &
+                      writing advanced queries making use of filters &
+                      projections.
+                    </span>
+                  </div>
+                  <div className={classes.Card}>
+                    <span className={classes.Image}>
+                      <img
                         src="/logos/contentful.svg"
                         alt="Contentful"
                         height="50"
@@ -437,6 +461,86 @@ class Technologies extends Component {
                       other Firebase features such as authentication, uploads,
                       etc. for creating & deploying simple Serverless
                       applications.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={classes.Section}>
+            <div className={classes.Slider} style={{ maxWidth: "1080px" }}>
+              <div className={classes.SlideTrackDevops}>
+                <div className={classes.Slide}>
+                  <img src="/logos/git.svg" alt="Git" />
+                </div>
+                <div className={classes.Slide}>
+                  <img src="/logos/github.png" alt="GitHub" />
+                </div>
+                <div className={classes.Slide}>
+                  <img src="/logos/docker.svg" alt="Docker" />
+                </div>
+                <div className={classes.Slide}>
+                  <img src="/logos/heroku.svg" alt="Heroku" />
+                </div>
+                <div className={classes.Slide}>
+                  <img src="/logos/netlify.svg" alt="Netlify" />
+                </div>
+                <div className={classes.Slide}>
+                  <img src="/logos/pa.svg" alt="Python Anywhere" />
+                </div>
+                <div className={classes.Slide}>
+                  <img src="/logos/git.svg" alt="Git" />
+                </div>
+                <div className={classes.Slide}>
+                  <img src="/logos/github.png" alt="GitHub" />
+                </div>
+                <div className={classes.Slide}>
+                  <img src="/logos/docker.svg" alt="Docker" />
+                </div>
+                <div className={classes.Slide}>
+                  <img src="/logos/heroku.svg" alt="Heroku" />
+                </div>
+                <div className={classes.Slide}>
+                  <img src="/logos/netlify.svg" alt="Netlify" />
+                </div>
+                <div className={classes.Slide}>
+                  <img src="/logos/pa.svg" alt="Python Anywhere" />
+                </div>
+              </div>
+            </div>
+            <div className={devops}>
+              <div
+                className={classes.Headline}
+                onClick={() => this.onDrop("devops")}
+                role="button"
+                tabIndex="0"
+                onKeyDown={() => this.onDrop("devops")}
+              >
+                <span>DevOps & Deployment Tools</span>
+                <i className="fa fa-chevron-circle-down"></i>
+              </div>
+              <div className={classes.DetailView}>
+                <div className={classes.Grid}>
+                  <div className={classes.Card}>
+                    <span className={classes.Image}>
+                      <img
+                        src="/logos/git.svg"
+                        alt="Git"
+                        height="40"
+                        className={classes.Image1}
+                      />
+                      <img
+                        src="/logos/github.png"
+                        alt="GitHub"
+                        height="35"
+                        className={classes.Image2}
+                      />
+                    </span>
+                    <span className={classes.Description}>
+                      <h3>Git & GitHub.</h3>I am efficient in using Git concepts
+                      such as branching, merging rebasing for version control. I
+                      am also familiar with GitHub workflow and features like
+                      project management, actions, etc.
                     </span>
                   </div>
                 </div>

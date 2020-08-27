@@ -4,22 +4,22 @@ import PropTypes from "prop-types"
 
 const NavLinks = props => (
   <nav className={props.className}>
-    <Link to="/" tabIndex="2" activeClassName={props.activeClassName}>
+    <Link to="/" tabIndex="0" activeClassName={props.activeClassName}>
       Home
     </Link>
     <Link
       to="/technologies/"
-      tabIndex="3"
+      tabIndex="0"
       activeClassName={props.activeClassName}
     >
       Technologies
     </Link>
-    <Link to="/projects/" tabIndex="4" activeClassName={props.activeClassName}>
+    <Link to="/projects/" tabIndex="0" activeClassName={props.activeClassName}>
       Projects
     </Link>
     <Link
       to="/blog/"
-      tabIndex="5"
+      tabIndex="0"
       activeClassName={props.activeClassName}
       partiallyActive
     >
