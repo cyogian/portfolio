@@ -45,7 +45,7 @@ const Social = props => {
         target="_blank"
         rel="noopener noreferrer"
         title="Email"
-        tabIndex="10"
+        tabIndex="0"
       >
         <i className="fas fa-at"></i>
       </a>

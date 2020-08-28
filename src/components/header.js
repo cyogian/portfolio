@@ -33,9 +33,11 @@ const Header = props => {
           <div style={{ width: "2rem" }}>
             <div className={Toggle}>
               <i
+                id="toggle"
                 onClick={props.onClickToggle}
                 role="button"
                 tabIndex="0"
+                aria-label="Toggle Sidebar"
                 aria-pressed="false"
                 aria-expanded={props.status}
                 onKeyDown={props.onClickToggle}

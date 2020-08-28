@@ -526,13 +526,13 @@ class Technologies extends Component {
                       <img
                         src="/logos/git.svg"
                         alt="Git"
-                        height="40"
+                        height="30"
                         className={classes.Image1}
                       />
                       <img
                         src="/logos/github.png"
                         alt="GitHub"
-                        height="35"
+                        height="25"
                         className={classes.Image2}
                       />
                     </span>
@@ -541,6 +541,95 @@ class Technologies extends Component {
                       such as branching, merging rebasing for version control. I
                       am also familiar with GitHub workflow and features like
                       project management, actions, etc.
+                    </span>
+                  </div>
+                  <div className={classes.Card}>
+                    <span className={classes.Image}>
+                      <img
+                        src="/logos/docker.svg"
+                        alt="Docker"
+                        height="60"
+                        className={classes.Image4}
+                      />
+                    </span>
+                    <span className={classes.Description}>
+                      <h3>Docker.</h3>I have beginner level knowledge about
+                      using docker for building & managing linux containers,
+                      deploying isolated applications, creating, reusing &
+                      sharing custom container images, and configuring
+                      containers to access local network.
+                    </span>
+                  </div>
+                  <div className={classes.Card}>
+                    <span
+                      className={classes.Image}
+                      style={{ minWidth: "72px" }}
+                    >
+                      <img
+                        src="/logos/heroku.svg"
+                        alt="Heroku"
+                        height="50"
+                        className={classes.Image1}
+                      />
+                      <img
+                        src="/logos/netlify.svg"
+                        alt="Neltify"
+                        height="50"
+                        className={classes.Image2}
+                        style={{ left: "1rem" }}
+                      />
+                    </span>
+                    <span className={classes.Description}>
+                      <h3>Heroku, Netlify & PythonAnywhere.</h3>PythonAnywhere &
+                      Heroku are my primary choice for deploying Backend Server
+                      Applications based on Python such as. Flask or Django Apps
+                      & ReST APIs. I prefer using Netlify for deploying Frontend
+                      Applications. I love Netlify's support for JAMStack & it's
+                      continuous integration & continuous deployment with Github
+                      Repo features. This porfolio site is deployed on Netlify.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={classes.Section}>
+            <div className={classes.Plate}>
+              <img
+                src="/logos/windows.svg"
+                alt="Windows"
+                className={classes.Windows}
+              />
+              <img
+                src="/logos/linux.svg"
+                alt="Linux"
+                className={classes.Linux}
+              />
+            </div>
+            <div className={os}>
+              <div
+                className={classes.Headline}
+                onClick={() => this.onDrop("os")}
+                role="button"
+                tabIndex="0"
+                onKeyDown={() => this.onDrop("os")}
+              >
+                <span>Operating Systems</span>
+                <i className="fa fa-chevron-circle-down"></i>
+              </div>
+              <div className={classes.DetailView}>
+                <div className={classes.Grid}>
+                  <div className={classes.Card}>
+                    <span className={classes.Image}>
+                      <img
+                        src="/logos/linux.svg"
+                        alt="Linux"
+                        height="30"
+                        className={classes.Image4}
+                      />
+                    </span>
+                    <span className={classes.Description}>
+                      <h3>Linux.</h3>
                     </span>
                   </div>
                 </div>
