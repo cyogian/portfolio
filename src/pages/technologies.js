@@ -624,12 +624,20 @@ class Technologies extends Component {
                       <img
                         src="/logos/linux.svg"
                         alt="Linux"
-                        height="30"
+                        height="60"
                         className={classes.Image4}
                       />
                     </span>
                     <span className={classes.Description}>
-                      <h3>Linux.</h3>
+                      <h3>Linux.</h3>Linux is my preferred Operating System and
+                      I'm a fan of the Do It Yourself philosophy. I have been
+                      using linux for 5+ years. I have worked on both debian &
+                      redhat based distros. Fedora is my favorite distro. I am
+                      well versed with basics of system administration, working
+                      with CLI, vim editor, grep, regex, cryptography, disk
+                      management, creating and managing users, groups, etc,
+                      configuring SELinux policies, file permissions, mail
+                      server, web server etc.
                     </span>
                   </div>
                 </div>

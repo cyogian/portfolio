@@ -163,11 +163,10 @@ $animationSpeedOS: 10s;
 
 .Plate {
   position: relative;
-  width: 200px;
-  border-top: 1px solid black;
+  width: 250px;
   background: white;
-  height: 60px;
-  margin: auto;
+  height: 55px;
+  margin: 1px auto;
   overflow: hidden;
   .Windows,
   .Linux {
