@@ -20,10 +20,7 @@ class Index extends Component {
                 options={{
                   strings: [
                     "Hello, I'm Amar.<br/>I'm a Full Stack Web Developer.",
-                    "I build Web Apps using Javascript & Python.",
-                    "I am proficient in building both Frontend & Backend of a Web Application.",
-                    "I can create Multi-Page & Single-Page Progressive Web Applications.",
-                    "I can build ReST APIs using Python/Flask.",
+                    "I build Web Applications using HTML, CSS, Javascript & Python.",
                   ],
                   autoStart: true,
                   loop: true,

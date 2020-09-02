@@ -1,6 +1,10 @@
 .Footer {
   padding-bottom: 0.3rem;
+  background-color: black;
+  border-top: 1px solid #515151;
+  min-height: 80px;
   width: 100%;
+  z-index: 5;
   .Copyright {
     position: fixed;
     bottom: 0;
