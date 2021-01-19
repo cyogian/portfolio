@@ -70,3 +70,21 @@
     padding: 3.5%;
   }
 }
+.Button {
+  text-align: center;
+  margin-top: 3rem;
+  a {
+    text-decoration: none;
+    width: fit-content;
+    background-color: whitesmoke;
+    padding: 0.5rem 1.5rem;
+    color: black;
+    font-family: Anton;
+    border-radius: 0.8rem;
+    font-size: 1.3rem;
+
+    &:hover {
+      box-shadow: 0 0 0 3px #02ec02;
+    }
+  }
+}

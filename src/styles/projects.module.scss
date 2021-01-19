@@ -93,7 +93,7 @@
   width: calc(100% - 2rem);
   h2 {
     font-size: 1.8rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
     color: black;
     font-family: Anton;
   }
@@ -120,7 +120,6 @@
   }
   ul {
     padding-top: 1rem;
-    padding-bottom: 1rem;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -216,6 +215,7 @@
     padding: 0px;
   }
   .Preview {
+    width: 40%;
     justify-content: center;
     border-radius: 0;
     border-top-left-radius: 1rem;
@@ -227,7 +227,6 @@
 }
 
 .Post {
-  margin-bottom: 1rem;
   text-decoration: none;
   background-color: white;
   padding: 0.15rem;
@@ -241,4 +240,23 @@
   font-family: Anton;
   display: inline-block;
   width: fit-content;
+  margin: 0;
+}
+
+.Button {
+  text-align: center;
+  a {
+    text-decoration: none;
+    width: fit-content;
+    background-color: whitesmoke;
+    padding: 0.5rem 1.5rem;
+    color: black;
+    font-family: Anton;
+    border-radius: 0.8rem;
+    font-size: 1.3rem;
+
+    &:hover {
+      box-shadow: 0 0 0 3px #02ec02;
+    }
+  }
 }

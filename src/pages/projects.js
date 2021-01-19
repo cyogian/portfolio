@@ -58,7 +58,7 @@ const Projects = () => {
               {sourceCode ? <a href={sourceCode} target="_blank" rel="noreferrer"><i className="fas fa-code"></i>  Source Code</a> : ""}
               {liveDemo ? <a href={liveDemo} target="_blank" rel="noreferrer"><i className="fab fa-chrome"></i> Live Demo</a> : ""}
             </div>
-            <br/>{ post ? <a className={classes.Post} href={post} target="_blank" rel="noreferrer">Blog Post</a> : "" }
+            { post ? <a className={classes.Post} href={post} target="_blank" rel="noreferrer">Blog Post</a> : "" }
           </div>
         </div>
       </li>
@@ -73,6 +73,7 @@ const Projects = () => {
           <div>Some of the personal & work related projects that I've worked on.</div>
         </div>
         <ul className={classes.ProjectList}>{renderedList}</ul>
+        <div className={classes.Button}><a href="https://blog.cyogian.dev/" target="_blank" rel="noreferrer noopener">Blog <i className="fas fa-arrow-circle-right"></i></a></div>
       </div>
     </Layout>
   )

@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Head from "../components/head"
 
@@ -48,6 +48,7 @@ class Technologies extends Component {
             <div>
               The technologies that I'm skilled in working with & the tools that
               I've used in my previous projects.
+              <div style={{ fontFamily: "Open Sans, sans-serif", fontWeight: "bold", color: "yellow", padding: "1rem", paddingBottom: 0 }}>Click on the Arrow to open a Section & read further details.</div>
             </div>
           </div>
           <div className={classes.Section}>
@@ -651,6 +652,7 @@ class Technologies extends Component {
               </div>
             </div>
           </div>
+          <div className={classes.Button}><Link to="/projects">Projects <i className="fas fa-arrow-circle-right"></i></Link></div>
         </div>
       </Layout>
     )
