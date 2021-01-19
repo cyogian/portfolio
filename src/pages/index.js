@@ -31,7 +31,7 @@ class Index extends Component {
               </Link>
             </div>
           </div>
-          <div className={classes.Button}><Link to="/technologies">Technologies <i className="fas fa-arrow-circle-right"></i></Link></div>
+          <div className={classes.Button}><Link to="/technologies/">Technologies <i className="fas fa-arrow-circle-right"></i></Link></div>
         </div>
       </Layout>
     )

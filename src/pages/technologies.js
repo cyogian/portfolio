@@ -652,7 +652,7 @@ class Technologies extends Component {
               </div>
             </div>
           </div>
-          <div className={classes.Button}><Link to="/projects">Projects <i className="fas fa-arrow-circle-right"></i></Link></div>
+          <div className={classes.Button}><Link to="/projects/">Projects <i className="fas fa-arrow-circle-right"></i></Link></div>
         </div>
       </Layout>
     )
