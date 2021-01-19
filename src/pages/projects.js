@@ -58,7 +58,7 @@ const Projects = () => {
               {sourceCode ? <a href={sourceCode} target="_blank" rel="noreferrer"><i className="fas fa-code"></i>  Source Code</a> : ""}
               {liveDemo ? <a href={liveDemo} target="_blank" rel="noreferrer"><i className="fab fa-chrome"></i> Live Demo</a> : ""}
             </div>
-            { post ? <a className={classes.Post} href={post} target="_blank" rel="noreferrer">Blog Post</a> : "" }
+            { post ? <a className={classes.Post} href={post} target="_blank" rel="noreferrer"><i className="fas fa-feather-alt"></i> Blog Post</a> : "" }
           </div>
         </div>
       </li>
