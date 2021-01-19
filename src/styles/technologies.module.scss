@@ -15,10 +15,10 @@
 }
 
 .Technologies {
+  position: relative;
   width: 100%;
   .Header {
     background-color: #222222;
-    color: white;
     position: relative;
     padding: 1rem 0.5rem;
     color: rgb(226, 226, 226);
@@ -126,13 +126,13 @@ $animationSpeedOS: 10s;
   .SlideTrackFrontend {
     animation: scrollfrontend $animationSpeedFrontend linear infinite;
     display: flex;
-    width: calc(180px * 30);
+    width: calc(180px * 28);
   }
 
   .SlideTrackBackend {
     animation: scrollbackend $animationSpeedBackend linear infinite;
     display: flex;
-    width: calc(180px * 16);
+    width: calc(180px * 20);
   }
 
   .SlideTrackDevops {

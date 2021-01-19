@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto + Sans + JP&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@font-face {
+  font-family: "Quiet Evening";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../fonts/Quiet\ Evening.ttf");
+}
+@font-face {
+  font-family: "Benjamin Franklin";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../fonts/BenjaminFranklin.ttf");
+}
+
+.Projects {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+  .Header {
+    width: calc(100% - 1rem);
+    margin: 0;
+    margin-bottom: 1rem;
+    background-color: #222222;
+    position: relative;
+    padding: 1rem 0.5rem;
+    color: rgb(226, 226, 226);
+    font-weight: lighter;
+    font-size: 0.8rem;
+    h1 {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 2rem;
+      color: white;
+    }
+    div {
+      padding-left: 0.1rem;
+    }
+    font-family: "Benjamin Franklin";
+  }
+}
+.ProjectList {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.Project {
+  border-radius: 1rem;
+  border: 1px solid grey;
+  background-color: #47c764;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  max-width: 1280px;
+}
+.Left,
+.Right {
+  width: calc(47.5% - 2rem);
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+.Preview {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0e0e0e;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  padding: 0;
+  margin: 0;
+  img {
+    width: 100%;
+    position: relative;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+}
+.Content {
+  padding: 1.5rem;
+  text-align: left;
+  font-family: "Roboto";
+  width: calc(100% - 2rem);
+  h2 {
+    font-size: 1.8rem;
+    padding-bottom: 1.5rem;
+    color: black;
+    font-family: Anton;
+  }
+  .Description {
+    font-size: 1.15rem;
+    line-height: 1.6rem;
+    color: #1f1f1f;
+    margin-right: 0.5rem;
+    /* These are technically the same, but use both */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  ul {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      margin-right: 0.3rem;
+      color: #47c764;
+      background-color: #0e0e0e;
+      border: 1px solid #0e0e0e;
+      border-radius: 5px;
+      display: span;
+      padding: 0.5rem;
+      width: fit-content;
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+.DemoSource {
+  padding-top: 1rem;
+  a {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    background-color: white;
+    padding: 0.3rem;
+    padding-right: 0.6rem;
+    padding-left: 0.6rem;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    color: #444444;
+    font-size: 1.1rem;
+    font-family: Anton;
+    display: inline-block;
+    width: fit-content;
+  }
+}
+@media (min-width: 801px) {
+  .Projects h1 {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .Left,
+  .Right {
+    width: calc(100% - 2rem);
+  }
+  .Project {
+    margin-left: 2rem;
+  }
+
+  .ProjectList {
+    flex-flow: column nowrap;
+  }
+}
+
+@media (min-width: 1081px) {
+  .Left,
+  .Right {
+    width: 100%;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .Left {
+    margin-left: 2.6rem;
+    justify-content: flex-start !important;
+  }
+  .Right {
+    justify-content: flex-end !important;
+  }
+
+  .Project {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    max-width: 1280px;
+  }
+
+  .Projects {
+    width: calc(100% - 1rem);
+    margin: 0;
+    padding-right: 0;
+    .Header {
+      width: 100%;
+    }
+  }
+
+  .ProjectList {
+    flex-direction: column;
+    width: calc(100% - 2rem);
+    flex-wrap: nowrap;
+    margin: 0 !important;
+    padding: 0px;
+  }
+  .Preview {
+    justify-content: center;
+    border-radius: 0;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    img {
+      border-radius: 1rem;
+    }
+  }
+}
+
+.Post {
+  margin-bottom: 1rem;
+  text-decoration: none;
+  background-color: white;
+  padding: 0.15rem;
+  padding-right: 0.4rem;
+  padding-left: 0.4rem;
+  border: 2px solid #0364d3;
+  box-shadow: 0 0 0 2px #067aff;
+  border-radius: 5px;
+  color: #444444;
+  font-size: 1.1rem;
+  font-family: Anton;
+  display: inline-block;
+  width: fit-content;
+}

@@ -17,14 +17,7 @@ const NavLinks = props => (
     <Link to="/projects/" tabIndex="0" activeClassName={props.activeClassName}>
       Projects
     </Link>
-    <Link
-      to="/blog/"
-      tabIndex="0"
-      activeClassName={props.activeClassName}
-      partiallyActive
-    >
-      Blog
-    </Link>
+    <a href="https://blog.cyogian.dev/" target="_blank" rel="noreferrer noopener">Blog</a>  
   </nav>
 )
 

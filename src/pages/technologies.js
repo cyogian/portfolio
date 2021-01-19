@@ -87,9 +87,6 @@ class Technologies extends Component {
                   <img src="/logos/jQuery.svg" alt="jQuery" />
                 </div>
                 <div className={classes.Slide}>
-                  <img src="/logos/node.svg" alt="NodeJS" />
-                </div>
-                <div className={classes.Slide}>
                   <img src="/logos/npm.svg" alt="npm" />
                 </div>
                 <div className={classes.Slide}>
@@ -130,9 +127,6 @@ class Technologies extends Component {
                 </div>
                 <div className={classes.Slide}>
                   <img src="/logos/jQuery.svg" alt="jQuery" />
-                </div>
-                <div className={classes.Slide}>
-                  <img src="/logos/node.svg" alt="NodeJS" />
                 </div>
                 <div className={classes.Slide}>
                   <img src="/logos/npm.svg" alt="npm" />
@@ -323,6 +317,13 @@ class Technologies extends Component {
                   <img src="/logos/firestore.svg" alt="Firestore" />
                 </div>
                 <div className={classes.Slide}>
+                  <img src="/logos/node.svg" alt="NodeJS" />
+                </div>
+                <div className={classes.Slide}>
+                  <img src="/logos/express.svg" alt="NodeJS" />
+                </div>
+
+                <div className={classes.Slide}>
                   <img src="/logos/python.svg" alt="Python" />
                 </div>
                 <div className={classes.Slide}>
@@ -345,6 +346,12 @@ class Technologies extends Component {
                 </div>
                 <div className={classes.Slide}>
                   <img src="/logos/firestore.svg" alt="Firestore" />
+                </div>
+                <div className={classes.Slide}>
+                  <img src="/logos/node.svg" alt="NodeJS" />
+                </div>
+                <div className={classes.Slide}>
+                  <img src="/logos/express.svg" alt="NodeJS" />
                 </div>
               </div>
             </div>

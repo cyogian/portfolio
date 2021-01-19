@@ -94,16 +94,12 @@ https://mkrtchyan.ga
 }
 
 .Stars {
-  background: #000
-    url(/stars.png) repeat top
-    center;
+  background: #000 url(/stars.png) repeat top center;
   z-index: 0;
 }
 
 .Twinkling {
-  background: transparent
-    url(/twinkling.png) repeat
-    top center;
+  background: transparent url(/twinkling.png) repeat top center;
   z-index: 1;
 
   -moz-animation: move-twink-back 200s linear infinite;
@@ -114,9 +110,7 @@ https://mkrtchyan.ga
 }
 
 .Clouds {
-  background: transparent
-    url(/clouds3.png) repeat top
-    center;
+  background: transparent url(/clouds3.png) repeat top center;
   z-index: 3;
 
   -moz-animation: move-clouds-back 200s linear infinite;
