@@ -10,6 +10,7 @@
 
 .Main {
   margin: 64px 0 28px 0;
+  min-height: calc(100vh - 176px);
   position: relative;
 }
 @media (max-width: 1080px) {
