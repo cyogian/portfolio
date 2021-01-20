@@ -1,5 +1,8 @@
 .Footer {
-  padding-bottom: 0.3rem;
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
   background-color: black;
   border-top: 1px solid #515151;
   min-height: 80px;
@@ -22,6 +25,55 @@
       text-decoration: none;
       color: paleturquoise;
       font-weight: bold;
+    }
+  }
+  .Section {
+    padding: 0;
+    padding-bottom: 1rem;
+    h3 {
+      padding: 0.3rem 1rem;
+      border-top: 2px solid white;
+      border-bottom: 2px solid white;
+      margin-bottom: 0.5rem;
+      font-size: 1.35rem;
+    }
+    ul {
+      list-style: none;
+      font-size: 1.1rem;
+      padding-left: 0.5rem;
+      li {
+        padding: 0.3rem 0.5rem;
+        a {
+          text-decoration: none;
+          color: #d1d1d1;
+          display: flex;
+          i,
+          img {
+            margin-right: 0.5rem;
+            display: inline-block;
+            height: 100%;
+            max-width: 1em;
+          }
+          img {
+            width: 1em;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 332px) {
+  .Footer {
+    padding-bottom: 3rem;
+  }
+}
+@media (min-width: 801px) {
+  .Footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    .Section {
+      width: 50%;
     }
   }
 }

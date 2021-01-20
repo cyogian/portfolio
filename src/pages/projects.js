@@ -45,7 +45,7 @@ const Projects = () => {
     } = project.node
     const stackList = stack.map((item, i) => (<li key={i}>{item}</li>))
     return (
-      <li className={index % 2 === 0 ? classes.Right : classes.Left} key={index}>
+      <li className={index % 2 === 0 ? classes.Left : classes.Right} key={index}>
         <div className={classes.Project}>
           <div className={classes.Preview}>
             <img src={preview.file.url} alt={preview.description} />

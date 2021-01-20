@@ -48,7 +48,7 @@ class Technologies extends Component {
             <div>
               The technologies that I'm skilled in working with & the tools that
               I've used in my previous projects.
-              <div style={{ fontFamily: "Open Sans, sans-serif", fontWeight: "bold", color: "yellow", padding: "1rem", paddingBottom: 0 }}>Click on the Arrow to open a Section & read further details.</div>
+              <div style={{ fontFamily: "Open Sans, sans-serif", fontWeight: "bold", color: "yellow", padding: "1rem", paddingBottom: 0, textAlign: "center" }}>Click on the Arrow to open a Section & read further details.</div>
             </div>
           </div>
           <div className={classes.Section}>
@@ -419,13 +419,13 @@ class Technologies extends Component {
                       <img
                         src="/logos/mysql.svg"
                         alt="MySQL"
-                        height="45"
+                        height="60"
                         className={classes.Image1}
                       />
                       <img
-                        src="/logos/mongodB.svg"
+                        src="/logos/mongodb1.png"
                         alt="MongoDB"
-                        height="45"
+                        height="60"
                         className={classes.Image2}
                       />
                     </span>

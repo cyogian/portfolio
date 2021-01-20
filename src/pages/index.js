@@ -26,9 +26,9 @@ class Index extends Component {
                   loop: true,
                 }}
               />
-              <Link to="/technologies/">
+              {/* <Link to="/technologies/">
                 Click Here to Explore My Tools & Skill Set
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className={classes.Button}><Link to="/technologies/">Technologies <i className="fas fa-arrow-circle-right"></i></Link></div>
