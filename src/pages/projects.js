@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 
-import Layout from "../components/layout"
+// import Layout from "../components/layout"
 import Head from "../components/head"
 
 import classes from "../styles/projects.module.scss"
@@ -65,7 +65,8 @@ const Projects = () => {
     )
   })
   return (
-    <Layout>
+    // <Layout>
+    <>
       <Head title="Projects" />
       <div className={classes.Projects}>
         <div className={classes.Header}>
@@ -73,9 +74,10 @@ const Projects = () => {
           <div>Some of the personal & work related projects that I've worked on.</div>
         </div>
         <ul className={classes.ProjectList}>{renderedList}</ul>
-        <div className={classes.Button}><a href="https://blog.cyogian.dev/" target="_blank" rel="noreferrer noopener">Blog <i className="fas fa-arrow-circle-right"></i></a></div>
+        <div className={classes.Button}><a href="https://blog.cyogian.dev/" target="_blank" rel="noreferrer noopener">Blog <i className="fas fa-external-link-alt"></i></a></div>
       </div>
-    </Layout>
+      </>
+    // </Layout>
   )
 }
 

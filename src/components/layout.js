@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 
+
 import Header from "./header"
 import Footer from "./footer"
 import Sidebar from "./sidebar"
@@ -15,21 +16,30 @@ class Layout extends Component {
     this.setState({
       showSidebar: !this.state.showSidebar,
     })
+  onRouteChanged = () => this.setState({
+      showSidebar: false,
+    })
+  componentDidUpdate(prevProps) {
+    if(this.props.location.key !== prevProps.location.key) {
+      this.onRouteChanged()
+    }
+  }
   render() {
     return (
-      <div className={classes.Layout}>
-        <Stars />
-        <Header
-          onClickToggle={this.onSidebarToggle}
-          status={this.state.showSidebar}
-        />
-        <Sidebar
-          show={this.state.showSidebar}
-          onClickToggle={this.onSidebarToggle}
-        />
-        <div className={classes.Main}>{this.props.children}</div>
-        <Footer />
-      </div>
+      <div className={classes.Layout}>       
+          <Stars />
+          <Header
+            onClickToggle={this.onSidebarToggle}
+            status={this.state.showSidebar}
+          />
+          <Sidebar
+            show={this.state.showSidebar}
+            onClickToggle={this.onSidebarToggle}
+
+          />
+          <div className={classes.Main}>{this.props.children}</div>
+          <Footer />
+      </div>          
     )
   }
 }

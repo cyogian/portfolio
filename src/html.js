@@ -16,6 +16,14 @@ export default function HTML(props) {
           crossOrigin="anonymous"
         ></script>
         {props.headComponents}
+        <style>
+          {`
+          .tl-edges {
+            overflow: hidden;
+            padding-bottom: 1rem;
+          }  
+          `}
+        </style>
       </head>
       <body
         {...props.bodyAttributes}

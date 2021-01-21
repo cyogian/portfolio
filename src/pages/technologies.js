@@ -1,6 +1,6 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
+import Link from 'gatsby-plugin-transition-link/AniLink'
+// import Layout from "../components/layout"
 import Head from "../components/head"
 
 import classes from "../styles/technologies.module.scss"
@@ -40,7 +40,8 @@ class Technologies extends Component {
       os = Open
     }
     return (
-      <Layout>
+      // <Layout>
+      <>
         <Head title="Technologies" />
         <div className={classes.Technologies}>
           <div className={classes.Header}>
@@ -419,13 +420,13 @@ class Technologies extends Component {
                       <img
                         src="/logos/mysql.svg"
                         alt="MySQL"
-                        height="60"
+                        height="45"
                         className={classes.Image1}
                       />
                       <img
                         src="/logos/mongodb1.png"
                         alt="MongoDB"
-                        height="60"
+                        height="45"
                         className={classes.Image2}
                       />
                     </span>
@@ -652,9 +653,10 @@ class Technologies extends Component {
               </div>
             </div>
           </div>
-          <div className={classes.Button}><Link to="/projects/">Projects <i className="fas fa-arrow-circle-right"></i></Link></div>
+          <div className={classes.Button}><Link to="/projects/" paintDrip duration={0.5}>Projects <i className="fas fa-arrow-circle-right"></i></Link></div>
         </div>
-      </Layout>
+        </>
+      // </Layout>
     )
   }
 }

@@ -1,16 +1,17 @@
 import React, { Component } from "react"
 import Typewriter from "typewriter-effect"
 
-import Layout from "../components/layout"
+// import Layout from "../components/layout"
 import Head from "../components/head"
 
 import classes from "../styles/index.module.scss"
-import { Link } from "gatsby"
+import Link from 'gatsby-plugin-transition-link/AniLink'
 
 class Index extends Component {
   render() {
     return (
-      <Layout>
+      // <Layout>
+      <>
         <Head title="Home" />
         <div className={classes.Index}>
           <div className={classes.Computer}>
@@ -26,14 +27,12 @@ class Index extends Component {
                   loop: true,
                 }}
               />
-              {/* <Link to="/technologies/">
-                Click Here to Explore My Tools & Skill Set
-              </Link> */}
             </div>
           </div>
-          <div className={classes.Button}><Link to="/technologies/">Technologies <i className="fas fa-arrow-circle-right"></i></Link></div>
+          <div className={classes.Button}><Link to="/technologies/" paintDrip duration={0.5}>Technologies <i className="fas fa-arrow-circle-right"></i></Link></div>
         </div>
-      </Layout>
+        </>
+      // </Layout>
     )
   }
 }
