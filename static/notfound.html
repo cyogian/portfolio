@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>404 | Page Not Found</title>
+        <link rel="stylesheet" href="https://cyogian.dev/notfound.css"/>
+        <script src="https://kit.fontawesome.com/ce78083a1a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <a class="logo">
+                <img src="https://cyogian.dev/logo.svg" alt="Yogi Icon"/>
+                <span>cyogian</span>
+            </a>
+        </header>
+        <div class="main">
+            <h1>Looks like the page you are looking for doesn't exist.<br>What A Drag!</h1>
+            <img src="https://cyogian.dev/404.jpg" alt="Shikamaru Nara"/>
+            <a href="https://cyogian.dev/">Go To Home Page <i class="far fa-arrow-alt-circle-right"></i></a>>
+        </div>
+        <div class="copyright">
+            <a
+              href="https://linkedin.com/in/cyogian"
+              target="__blank"
+              rel="noreferer"
+            >
+              Amar Nath Yogi
+            </a>
+            . All Rights Reserved
+        </div>
+        <script>                    
+            let copyright = document.createTextNode(`Copyright © ${new Date().getFullYear()} `)
+            document.getElementsByClassName("copyright")[0].prepend(copyright)
+        </script>
+    </body>
+</html>

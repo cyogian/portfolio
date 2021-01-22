@@ -1,7 +1,7 @@
 import React from "react"
 import Link from 'gatsby-plugin-transition-link/AniLink'
 
-import classes from "./styles/notFound.module.scss"
+import classes from "../styles/notFound.module.scss"
 
 const NotFound = () => {
   return (
