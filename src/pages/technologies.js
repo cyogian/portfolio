@@ -653,7 +653,7 @@ class Technologies extends Component {
               </div>
             </div>
           </div>
-          <div className={classes.Button}><Link to="/projects/" paintDrip duration={0.5}>Projects <i className="fas fa-arrow-circle-right"></i></Link></div>
+          <div className={classes.Button}><Link to="/projects/" paintDrip duration={0.5}  hex="#02ec02">Projects <i className="fas fa-arrow-circle-right"></i></Link></div>
         </div>
         </>
       // </Layout>

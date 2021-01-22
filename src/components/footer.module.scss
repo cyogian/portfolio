@@ -47,6 +47,9 @@
           text-decoration: none;
           color: #d1d1d1;
           display: flex;
+          &:hover {
+            color: white;
+          }
           i,
           img {
             margin-right: 0.5rem;

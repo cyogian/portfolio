@@ -5,7 +5,7 @@ import NavLinks from "./navlinks"
 import Social from "./social"
 
 import classes from "./header.module.scss"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 const Header = props => {
   let { Toggle } = classes
@@ -14,10 +14,10 @@ const Header = props => {
   }
   return (
     <div className={classes.Header}>
-      <Link className={classes.Logo} to="/">
+      <AniLink className={classes.Logo} to="/" paintDrip duration={0.5}  hex="#02ec02">
         <img src="/logo.svg" alt="Logo" />
         <span>cyogian</span>
-      </Link>
+      </AniLink>
       <div className={classes.Menu}>
         <div className={classes.LeftMenu}>
           <NavLinks

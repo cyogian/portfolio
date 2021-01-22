@@ -85,6 +85,11 @@ const Footer = () => {
       text: "HackerRank",
       url: "https://hackerrank.com/cyogian",
       icon: "fab fa-hackerrank",
+    },
+    {
+      text: "Hashnode",
+      url: "https://hashnode.com/@cyogian",
+      logo: "/logos/hashnode.svg"
     }
   ]
   const socialList = social.map((item, index) => {
