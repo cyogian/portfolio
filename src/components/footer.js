@@ -47,6 +47,11 @@ const Footer = () => {
   ]
   const social = [
     {
+      text: "Email",
+      url: "mailto:contact@cyogian.dev",
+      icon: "fas fa-at",
+    },
+    {
       text: "LinkedIn",
       icon: "fab fa-linkedin-in",
       url: "https://linkedin.com/in/cyogian"
@@ -90,7 +95,8 @@ const Footer = () => {
       text: "Hashnode",
       url: "https://hashnode.com/@cyogian",
       logo: "/logos/hashnode.svg"
-    }
+    },
+    
   ]
   const socialList = social.map((item, index) => {
     return <li key={index}><a href={item.url} target="_blank" rel="noreferrer noopener">{ item.logo ? <img src={item.logo} alt="logo"></img> : ""}{ item.icon ? <i className={item.icon}></i> : ""}{item.text}</a></li>
