@@ -26,7 +26,7 @@ const Header = props => {
           />
         </div>
         <div className={classes.RightMenu}>
-          <a className={classes.Resume} href="/resume.pdf" download tabIndex="0">
+          <a className={classes.Resume} href="/resume.pdf" target="_blank" rel="noreferrer noopener" tabIndex="0">
             {/* <img src="amarprofile.jpeg" alt="Profile Pic" /> */}
             <i className="fas fa-file-download"></i>
           </a>
