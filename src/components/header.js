@@ -26,7 +26,7 @@ const Header = props => {
           />
         </div>
         <div className={classes.RightMenu}>
-          <a className={classes.Resume} href="/" download tabIndex="0">
+          <a className={classes.Resume} href="https://drive.google.com/file/d/19e4HwubDWStsFxl7GDZVDWJMP_qlTqX7/view?usp=sharing" download tabIndex="0">
             {/* <img src="amarprofile.jpeg" alt="Profile Pic" /> */}
             <i className="fas fa-file-download"></i>
           </a>
