@@ -384,9 +384,9 @@ class Technologies extends Component {
                       creating backend for web applications using Flask/Django,
                       using os & sys modules for automating regular tasks on my
                       linux system, interacting with filesystem using python.
-                      Also have beginner level knowledge in using the NumPy,
-                      SciPy, Pandas modules for statistical data analysis &
-                      visualization.
+//                       Also have beginner level knowledge in using the NumPy,
+//                       SciPy, Pandas modules for statistical data analysis &
+//                       visualization.
                     </span>
                   </div>
                   <div className={classes.Card}>
