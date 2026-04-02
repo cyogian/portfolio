@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a1ec9097-205a-48d2-a255-c54a2eb140c4/deploy-status)](https://app.netlify.com/projects/cyogian/deploys)
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
